@@ -1,0 +1,91 @@
+{
+  "meta": {
+    "agencyName": "Studio Two",
+    "date": "July 2026",
+    "email": "hello@studiotwo.co",
+    "phone": "+91 00000 00000"
+  },
+  "cover": {
+    "clientName": "[CLIENT NAME]",
+    "line2": "PERSONAL BRAND",
+    "line3": "CONTENT PROPOSAL",
+    "leftNote": "Strategy. Content. Growth.\nBuilding your personal brand with purpose.",
+    "rightNote": "Let's tell your story.\nThe world is listening."
+  },
+  "understanding": {
+    "heading": "Understanding\nthe brand",
+    "body": "A brief understanding of who you are, what you do, and why personal branding matters right now for someone at your stage. This is where we show we've done our homework before proposing anything."
+  },
+  "objectives": [
+    { "icon": "\u2191", "title": "Increase Visibility" },
+    { "icon": "\u2726", "title": "Build Authority" },
+    { "icon": "\u25C8", "title": "Generate Opportunities" }
+  ],
+  "pillars": {
+    "heading": "Content strategy\n/ pillars",
+    "intro": "Breakdown of each content type and its purpose.",
+    "items": [
+      "Authority Building",
+      "Reach & Discovery",
+      "Trust & Relationships",
+      "Personality & Connection"
+    ]
+  },
+  "deliverables": {
+    "rows": [
+      { "format": "Carousels", "qty": "4", "purpose": "Build authority & educate" },
+      { "format": "Short Reels", "qty": "8", "purpose": "Increase reach & visibility" },
+      { "format": "Week-in-Nutshell", "qty": "4", "purpose": "Build trust & relatability" },
+      { "format": "Stories", "qty": "16", "purpose": "Stay top-of-mind" }
+    ],
+    "totalLabel": "Total pieces / month",
+    "total": "32"
+  },
+  "workflow": [
+    { "step": "01", "title": "Discovery" },
+    { "step": "02", "title": "Strategy" },
+    { "step": "03", "title": "Content Planning" },
+    { "step": "04", "title": "Production" },
+    { "step": "05", "title": "Review" },
+    { "step": "06", "title": "Publishing" }
+  ],
+  "workflowNote": "You're involved at steps 1 and 5. We handle the rest.",
+  "timeline": [
+    { "week": "Week 1", "title": "Onboarding & Strategy" },
+    { "week": "Week 2", "title": "Content Planning & First Batch" },
+    { "week": "Week 3", "title": "Review & Refinements" },
+    { "week": "Week 4 onwards", "title": "Ongoing Monthly Cycle" }
+  ],
+  "investment": {
+    "rows": [
+      { "format": "Carousels", "priceUnit": 800, "qty": 4 },
+      { "format": "Short Reels", "priceUnit": 1200, "qty": 8 },
+      { "format": "Week-in-Nutshell", "priceUnit": 1500, "qty": 4 },
+      { "format": "Stories", "priceUnit": 150, "qty": 16 }
+    ],
+    "note": "Excludes ad spend, paid tools, or third-party costs.",
+    "currency": "\u20b9"
+  },
+  "requirements": [
+    "Access to brand assets / guidelines",
+    "Approval turnaround within 24\u201348 hrs",
+    "Footage, raw clips, or reference material",
+    "Key dates, launches, or themes",
+    "Any must-include / exclude topics"
+  ],
+  "terms": [
+    "50% advance to get started",
+    "Monthly billing on the 1st",
+    "2 rounds of revisions per deliverable",
+    "Minimum engagement: 3 months",
+    "15-day notice period to pause / exit"
+  ],
+  "closing": {
+    "line1": "YOUR STORY.",
+    "line2": "YOUR BRAND.",
+    "line3": "YOUR IMPACT.",
+    "body": "Consistent content. Strategic growth. Stronger opportunities.",
+    "note": "Let's build it together.",
+    "buttonText": "Let's do this"
+  }
+}

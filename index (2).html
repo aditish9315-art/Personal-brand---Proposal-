@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Personal Brand Content Proposal</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- scroll progress -->
+  <div class="progress-bar"><div class="progress-fill" id="progress-fill"></div></div>
+
+  <!-- nav dots -->
+  <nav class="nav-dots" id="nav-dots" aria-label="Section navigation"></nav>
+
+  <main id="app">
+
+    <!-- 01 COVER -->
+    <section class="slide cover" id="section-cover" data-num="01">
+      <div class="cover-inner">
+        <div class="cover-top">
+          <span class="agency-tag" id="agency-tag"></span>
+          <span class="cover-date" id="cover-date"></span>
+        </div>
+        <h1 class="cover-title">
+          <span id="cover-line1"></span>
+          <span id="cover-line2"></span>
+          <span id="cover-line3"></span>
+        </h1>
+        <div class="cover-bottom">
+          <p id="cover-left"></p>
+          <p id="cover-right"></p>
+        </div>
+        <div class="deco-shape shape-a" aria-hidden="true"></div>
+        <div class="deco-shape shape-b" aria-hidden="true"></div>
+      </div>
+    </section>
+
+    <!-- 02 UNDERSTANDING -->
+    <section class="slide light" id="section-understanding" data-num="02">
+      <span class="section-num">02</span>
+      <h2 class="reveal" id="understanding-heading"></h2>
+      <p class="body-text reveal" id="understanding-body"></p>
+      <span class="v-line" aria-hidden="true"></span>
+    </section>
+
+    <!-- 03 OBJECTIVES -->
+    <section class="slide grey" id="section-objectives" data-num="03">
+      <span class="section-num">03</span>
+      <h2 class="reveal">Objective</h2>
+      <p class="body-text reveal">What this engagement is meant to achieve — visibility, authority, inbound growth, networking, positioning, or a combination.</p>
+      <div class="objectives-grid stagger" id="objectives-grid"></div>
+    </section>
+
+    <!-- 04 CONTENT PILLARS -->
+    <section class="slide light" id="section-pillars" data-num="04">
+      <span class="section-num">04</span>
+      <h2 class="reveal" id="pillars-heading"></h2>
+      <p class="body-text reveal" id="pillars-intro"></p>
+      <ul class="pillars-list stagger" id="pillars-list"></ul>
+    </section>
+
+    <!-- 05 DELIVERABLES -->
+    <section class="slide grey" id="section-deliverables" data-num="05">
+      <span class="section-num">05</span>
+      <h2 class="reveal">Deliverables &amp; Cadence</h2>
+      <table class="data-table reveal" id="deliverables-table">
+        <thead><tr><th>Format</th><th>Qty / Month</th><th>Purpose</th></tr></thead>
+        <tbody id="deliverables-body"></tbody>
+        <tfoot><tr class="total-row"><td id="deliverables-total-label"></td><td id="deliverables-total-val"></td><td></td></tr></tfoot>
+      </table>
+    </section>
+
+    <!-- 06 WORKFLOW -->
+    <section class="slide light" id="section-workflow" data-num="06">
+      <span class="section-num">06</span>
+      <h2 class="reveal">Process / Workflow</h2>
+      <div class="workflow-row stagger" id="workflow-row"></div>
+      <p class="workflow-note reveal" id="workflow-note"></p>
+    </section>
+
+    <!-- 07 TIMELINE -->
+    <section class="slide grey" id="section-timeline" data-num="07">
+      <span class="section-num">07</span>
+      <h2 class="reveal">Timeline</h2>
+      <div class="timeline-vertical" id="timeline-vertical"></div>
+    </section>
+
+    <!-- 08 INVESTMENT -->
+    <section class="slide light" id="section-investment" data-num="08">
+      <span class="section-num">08</span>
+      <h2 class="reveal">Investment</h2>
+      <div class="investment-layout">
+        <table class="data-table reveal" id="investment-table">
+          <thead><tr><th>Format</th><th>Price / Unit</th><th>Qty / Month</th><th>Total</th></tr></thead>
+          <tbody id="investment-body"></tbody>
+        </table>
+        <div class="sticky-total reveal">
+          <p class="sticky-total-label">Total monthly investment</p>
+          <p class="sticky-total-value" id="investment-total">0</p>
+          <p class="sticky-total-note" id="investment-note"></p>
+        </div>
+      </div>
+    </section>
+
+    <!-- 09 REQUIREMENTS -->
+    <section class="slide grey" id="section-requirements" data-num="09">
+      <span class="section-num">09</span>
+      <h2 class="reveal">What we need from you</h2>
+      <ul class="dot-list stagger" id="requirements-list"></ul>
+    </section>
+
+    <!-- 10 TERMS -->
+    <section class="slide light" id="section-terms" data-num="10">
+      <span class="section-num">10</span>
+      <h2 class="reveal">Terms</h2>
+      <ul class="dot-list stagger" id="terms-list"></ul>
+    </section>
+
+    <!-- 11 CLOSING -->
+    <section class="slide closing" id="section-closing" data-num="11">
+      <div class="closing-inner">
+        <h2 class="closing-title reveal">
+          <span id="closing-line1"></span>
+          <span id="closing-line2"></span>
+          <span id="closing-line3"></span>
+        </h2>
+        <p class="closing-body reveal" id="closing-body"></p>
+        <p class="closing-note reveal" id="closing-note"></p>
+        <a href="#" class="cta-button reveal" id="cta-button"></a>
+        <div class="closing-contact reveal">
+          <span id="closing-email"></span>
+          <span id="closing-phone"></span>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+<script src="script.js"></script>
+</body>
+</html>
